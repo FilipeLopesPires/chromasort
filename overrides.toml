@@ -1,0 +1,12 @@
+# Per-page corrections to the automatic color/gray classification.
+# Keys are source PDF file names; page numbers are 1-based within that file.
+#   color = [...]  force these pages to stay in color
+#   gray  = [...]  force these pages to grayscale
+# Overrides also beat the "page 1 is a cover" rule.
+
+# "Find the letter" grids printed in colored letters: text, not pictures.
+["Semana--6-----Foca.pdf"]
+gray = [14]
+
+["Semana--7-----Golfinho.pdf"]
+gray = [14]
